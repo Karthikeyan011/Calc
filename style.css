@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.calculator-main{
+    border: 1px solid black;
+    width: 310px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+    background-color: white;
+    color: snow;
+    font-family: CityLightDots;
+    background-color: black;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 55px;
+
+}
+
+form{
+    margin-left: 35px;
+}
+input{
+    padding: 22px;
+}
+
+#disp{
+    height: 30px;
+    width: 185px;
+    color: white;
+    font-family:'digital-7','Times New Roman', Times, serif;
+    font-size: larger;
+}
+#clear{
+    width: 172px;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('digital-7\digital-7.ttf');
+}
